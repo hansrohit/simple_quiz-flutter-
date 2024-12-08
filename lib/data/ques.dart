@@ -17,6 +17,30 @@ const questions = [
     'By using XCode for iOS and Android Studio for Android',
   ]),
   QuizQuestions(
+      'Which of the following is used to manage the state of a Flutter application?',
+      ['setState', 'Scaffold', 'Navigator', 'Column']),
+  QuizQuestions(
+      'Which widget in Flutter is used to display an image from the network?',
+      ['Image.network', 'Image.asset', 'Image.file', 'Image.provider']),
+  QuizQuestions(
+      'What is the default main axis alignment of a Column widget in Flutter?',
+      [
+        'MainAxisAlignment.top',
+        'MainAxisAlignment.start',
+        'MainAxisAlignment.center',
+        'MainAxisAlignment.end'
+      ]),
+  QuizQuestions(
+      'What is the primary purpose of the FutureBuilder widget in Flutter?', [
+    'To manage asynchronous data and display results',
+    'To display a loading spinner',
+    'To animate widgets',
+    'To create custom layouts'
+  ]),
+  QuizQuestions(
+      'Which of the following packages is commonly used for handling HTTP requests in Flutter?',
+      ['provider', 'http', 'shared_preferences', 'sqflite']),
+  QuizQuestions(
     'What\'s the purpose of a StatefulWidget?',
     [
       'Update UI as data changes',
